@@ -1,0 +1,7 @@
+Virtual Functions - When you use inheritance, you often find that the derived classes need to implement specialized versions of some member
+functions from the base class. For example, the Person class might define a display() member function to display a person's name and age,
+whereas the Student class might want to display the student's course as well. This is known as "overriding". 
+To define overridable member functions properly in C++, you must prefix the function with the virtual keyword in the base class definition.
+
+I have created Person as a base class and inherited Student class from it publically. You will notice display() function has been declared as
+virtual fucntion in Person.h and Student.h
