@@ -1,0 +1,11 @@
+In this example I have show very simple example of caching. Caching is the ability to retrieve often used data quickly, so the data needs 
+to be stored somewhere for it to be retrieved. The std::vector is most often used for this since it is guaranteed to be stored in 
+contiguous memory which allows the linear search to be efficiently performed. Now most caching solutions involve a Least recently used 
+algorithm to remove least recently used data from the container so the most recently used is near the front of the container which supports fast search times.
+Using const variables will allow the compiler to store the value in the register for quick retrieval later The register keyword can be 
+used to tell the compiler that it will be accessed a lot and to keep the variable in a machine register. For instance, you may put a loop 
+index in a register as it will be accessed many time around the loop which would give a performance benefit. For example,
+
+for(register int i = 0; i < 9999999; i++){}
+
+In the code you will also see the use of keywords alignas and alignof keywords for word(memory block) alignment.
