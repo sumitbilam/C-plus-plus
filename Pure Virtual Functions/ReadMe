@@ -1,0 +1,9 @@
+Pure Virtual Functions - Pure Virtual Functions in C++ is like an abstract function in other languages like java and C# and a pure virtual
+class is like an interface in those languages.
+
+In "BankAccount.h" you would notice that I haven't declared getBalance() method as virtual because I don't want it to be overridden in
+subclasses. The deposit() and withdraw() methods are overridable and I have declared them as virtual because potentially subclasses might 
+have different rules for whether a deposit or a withdrawal is allowed under different circumstances. So those can be overridden
+by subclasses but they don't have to be. In contrast, the next two functions are pure virtual. The = 0, at the end makes these pure virtual functions. That
+means that these functions aren't implemented at all in the base class. In fact the are abstract methods so they must be overridden in 
+subclasses. 
