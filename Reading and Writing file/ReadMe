@@ -1,0 +1,3 @@
+In this demo I am doing some reading from and writing to binary files and doing some manipulation. 
+I am writing a high and low temperature of a city for 12 months and later doing some editing like changing the temperature of particular
+month and checking some error and so on.
