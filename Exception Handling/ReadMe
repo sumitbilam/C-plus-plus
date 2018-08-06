@@ -1,0 +1,2 @@
+In this example I am showing some simple potential error handling, where I am tring to update two vectors and creating a scenario where it
+may fails the update and how we can handle it.
