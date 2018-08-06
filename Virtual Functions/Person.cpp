@@ -14,7 +14,7 @@ Person::Person(string n, int a)
 	this->age = a;
 }
 
-//Remeber in implementation of virtual function you don't need to use key work virtual
+//Remeber in implementation of virtual function you don't need to use key word "virtual"
 const void Person::display()
 {
 	cout << name << "," << age << endl;
