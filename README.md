@@ -5,3 +5,4 @@ I this repository I have included some concpets of C++ as such:
 - Reading from and writing to binary files with different modes.
 - Exception handling
 - How to implement caching - Basic 
+- Template Functions - Generic Programming in C++
