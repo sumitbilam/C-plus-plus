@@ -1,0 +1,10 @@
+In this code example I have shown what are the Template functions and how to use Generic Programming in C++.
+
+Template functions are a c++ language feature for code reuse. By defining a template function, it allows us to use the function for 
+multiple types without changing the function for specific types. This is also known as “Generic Programming” as we create a generic 
+function and we can apply it to many different types. For example, consider a user defined function called printTypeName(pType) that 
+prints the type name of the parameter pType to standard output. The c++ compiler expects the pType type to be declared at compile time, 
+without using templates we would have to overload this function with the various types available in the c++ language.
+
+In Main.cpp you will notice that I have created an bubbleSort function which takes two template type parameters and in main program you will
+notice that we are passing different types of vector to the same function without overloading bubbleSort for each different type of vector.
