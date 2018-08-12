@@ -113,9 +113,6 @@ int main()
 		cout << *it << " ";
 	}
 
-
-	
-
 	system("pause");
 	return 0;
 }
