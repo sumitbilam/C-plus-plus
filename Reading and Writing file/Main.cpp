@@ -7,8 +7,6 @@ void simpleWriteToFile();
 void displayAllStat();
 void updateTemp(int index);
 void getMonthTemp(int index);
-/*ostream &operator << (ostream &os, tempStat &ts);
-istream &operator<<(istream&is, tempStat &ts);*/
 
 int main()
 {
@@ -30,19 +28,6 @@ int main()
 }
 
 //-----------------------helper methods-------------------------------
-/*For convenience, we also << operators to write tempStat objects to a stream in text format.
-We can use these operators to output tempStat objects on the console, for example:*/
-/*ostream &operator << (ostream &os, tempStat &ts)
-{
-	os << ts.minimum << "," << ts.minimum << endl;
-	return os;
-}
-
-istream &operator<<(istream&is, tempStat &ts)
-{
-	is >> ts.minimum >> ts.maximum;
-	return is;
-}*/
 
 void simpleWriteToFile()
 {
