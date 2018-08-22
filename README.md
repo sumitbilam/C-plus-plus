@@ -6,3 +6,5 @@ I this repository I have included some concpets of C++ as such:
 - Exception handling
 - How to implement caching - Basic 
 - Template Functions - Generic Programming in C++
+
+I have also included some simple projects.
