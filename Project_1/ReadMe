@@ -1,0 +1,2 @@
+This is a simple Tic Tac Toe game I have created where two players can play the game. I did not go much in depth for error handling for 
+sake of simplicity. You can see how to use precompiled header "stdafx.h" file in your program.
